@@ -1,0 +1,2 @@
+1. Useful when we want to have only one instance throughout the program's life
+2. Private Constructor with no argument making sure used from only within the class

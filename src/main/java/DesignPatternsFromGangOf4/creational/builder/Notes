@@ -1,0 +1,2 @@
+1. Great for constructing objects that contain lot of parameters
+2. Useful when object needs to be immutable once construction is finished
