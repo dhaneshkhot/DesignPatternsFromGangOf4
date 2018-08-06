@@ -1,2 +1,10 @@
 1. Great for constructing objects that contain lot of parameters
-2. Useful when object needs to be immutable once construction is finished
+2. Useful when object needs to be mutable once construction is finished
+3. Helps to determine what constructor to use
+4. Creation of multiple constructor with each parameter variation called 'telescoping constructor'.
+Builder pattern helps overcome this creation by handling constrution objects rather than parameters.
+5. Typically written with static inner class (can be separate class) as it returns instance of object that it is building.
+
+
+** StudentBean and StudentBeanTelescoping are just examples of how things could have been done--
+-- without builder. In both the cases object is immutable once created
