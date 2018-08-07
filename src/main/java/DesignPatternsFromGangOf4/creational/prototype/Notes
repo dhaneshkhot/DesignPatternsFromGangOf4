@@ -1,0 +1,16 @@
+1. Used when tye of object to create is determined by prototypical instance which is cloned to produce --
+-- a new instance
+2. Often to get a unique instance of the same object
+3. To avoid costly creation, subclassing (usually instance of prototype is created)
+4. Typically dont use the keyword 'new', only first instance is created by 'new' keyword --
+-- after than they are cloned
+5. Utilizes interface
+6. Usually implemented with registry i.e. object is created and kept in registry and when needed cloned from
+7. Shallow copy vs Deep Copy
+    Shallow copy:
+        Copied the references and kind of risky if modified as changes will be there for both objects.
+
+    Deep copy:
+        Copied to new variables with same values in the object
+
+

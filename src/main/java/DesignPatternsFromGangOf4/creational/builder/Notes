@@ -1,5 +1,5 @@
 1. Great for constructing objects that contain lot of parameters
-2. Useful when object needs to be mutable once construction is finished
+2. Useful when object needs to be immutable once construction is finished
 3. Helps to determine what constructor to use
 4. Creation of multiple constructor with each parameter variation called 'telescoping constructor'.
 Builder pattern helps overcome this creation by handling constrution objects rather than parameters.
